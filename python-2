@@ -1,0 +1,68 @@
+fahrenheit=int(input("Please type in a tempature(F): "))
+celcius= (int(fahrenheit - 32)* 5/9)
+if celcius < 0:
+    print(f"{fahrenheit} Fahrenheit = {celcius} Celcius -Brr! It's cold here!' ")
+else:
+    print (f"{fahrenheit} degrees Fahrenheit equals {celcius} degrees Celcius")
+
+
+hwage=int(input("Hourly wage?: "))
+hwork=int(input("How many hours did you work?: "))
+day=input("Which day did you work?: ")
+if day == "sunday":
+    print(f"{(hwork * hwage) * 2} liras ")
+else:
+    print(f"{hwork * hwage}")
+
+
+age=int(input("How old are you?: "))
+if age <18:
+    print("You can't play Dark Souls, sorry baby.")
+elif age >44:
+    print("You're too old for Dark Soul grandpa."),
+else:
+    print("Here is your Dark Souls!")
+    
+
+num1=int(input("Enter a number: "))
+num2=int(input("Enter another number: "))
+if num1>num2:
+    print("First one is greater.")
+elif num1<num2:
+    print("Second one is greater.")
+else:
+    print("These are equal.")
+
+
+num1=int(input("Enter a number: "))
+num2=int(input("Enter another number: "))
+if num1>num2:
+    print("First one is greater.")
+elif num1<num2:
+    print("Second one is greater.")
+elif num1==num2:
+    print("These are equal.")
+
+
+if "mahmut" > "can":
+ print("Mahmut")
+else:
+ print("Can")
+
+
+word1=input("Type the first word: ")
+word2=input("Type the second word: ")
+if word1>word2:
+    print(f"{word1} comes alphabetically last.")
+elif word1<word2:
+    print(f"{word2} comes alphabetically last.")
+else:
+    print("These are same!")
+    
+
+
+place=input("Which community do you belong to?: ")
+if place == ("New California Republic") or ("NCR") or ("Brotherhood of Steel") or ("Caesar’s Legion") or ("Great Kans") or ("Vault Dweller"):
+    print("You’re belong to Fallout Universe.")
+else:
+    print("Nope, you are not belong to Fallout Lore")
